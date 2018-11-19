@@ -1,0 +1,36 @@
+{
+  "ContentCreatorName": "HN1CollectionOwner",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation",
+  "SeriesNumber": "300",
+  "InstanceNumber": "1",
+  "BodyPartExamined": "HEADANDNECK",
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "GTV-1",
+        "SegmentAlgorithmType": "MANUAL",
+        "AnatomicRegionSequence": {
+          "CodeValue": "T-D1000",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Head and Neck"
+        },
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "M-01000",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Morphologically Altered Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "M-80003",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Neoplasm, Primary"
+        }
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi"
+}
