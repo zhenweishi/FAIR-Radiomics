@@ -1,0 +1,70 @@
+{
+  "ContentCreatorName": "RiderCollectionOwner",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation",
+  "SeriesNumber": "300",
+  "InstanceNumber": "1",
+  "BodyPartExamined": "LUNG",
+
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "GTV-1man",
+        "SegmentAlgorithmType": "MANUAL",
+        "AnatomicRegionSequence": {
+          "CodeValue": "T-28000",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Lung"
+        },
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "M-01000",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Morphologically Altered Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "M-80003",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Neoplasm, Primary"
+        },
+        "recommendedDisplayRGBValue": [
+          255,
+          0,
+          0
+        ]
+      }
+	],
+	[
+      {
+        "labelID": 1,
+        "SegmentDescription": "GTV-1auto",
+        "SegmentAlgorithmType": "AUTOMATIC",
+        "SegmentAlgorithmName": "0",
+        "AnatomicRegionSequence": {
+          "CodeValue": "T-28000",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Lung"
+        },
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "M-01000",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Morphologically Altered Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "M-80003",
+          "CodingSchemeDesignator": "SRT",
+          "CodeMeaning": "Neoplasm, Primary"
+        },
+        "recommendedDisplayRGBValue": [
+          0,
+          255,
+          0
+        ]
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi"
+}
