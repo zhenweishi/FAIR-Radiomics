@@ -58,6 +58,6 @@ if __name__ == '__main__':
     ProjectIDs = ['stwstrategyhn1']
     Dataset_name = ['HN1'] # data directory
     # Working directory. ./Data in FAIR-Radiomics
-    WorkingDir = os.path.join(os.getcwd(),'DataTest')
+    WorkingDir = os.path.join(os.getcwd(),'Data')
     collectionURL = 'https://xnat.bmia.nl' #edit this if you are using a different XNAT repo
     main()

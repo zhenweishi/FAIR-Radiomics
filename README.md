@@ -1,5 +1,5 @@
-# FAIR-Radiomics.
-## Findable(F), Accessible(A), Interoperability(I) and Reuse (R) - Radiomics. 
+# FAIR-Radiomics
+## Findable(F), Accessible(A), Interoperability(I) and Reuse (R) - Radiomics
 
 FAIR-Radiomics tool is able to calculate radiomic feature complying with FAIR principles:  (i) radiomics data and extraction details could be published with a Findable(F) and unique identifier; (ii) radiomics data and metadata are described with radiomics ontology, which make them accessible(A) and understandable by machines and humans; (iii) data uses a formal, standardized and applicable ontology for knowledge representation, which makes interoperability(I) among multi-centres possible; (iv) data offers explicit information on provenance and licenses for reuse (R).
 

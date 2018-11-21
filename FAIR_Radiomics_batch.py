@@ -13,7 +13,7 @@ from radiomics import featureextractor
 def main():
   outPath = r''
   # WorkingDir = 'DataTest'
-  WorkingDir = 'Data'
+  WorkingDir = 'Test'
   inputCSV = os.path.join(outPath, WorkingDir,'FAIRR_casetable.csv')
   outputFilepath = os.path.join(outPath, WorkingDir,'FAIRR_RadiomicFeature.csv')
   # params = os.path.join(outPath, 'exampleSettings', 'Params.yaml')
