@@ -5,17 +5,17 @@ echo "-------- initial update-------"
 sudo apt-get update
 
 echo "Step-2:"
-echo "-------- install pip3---------"
-wget https://bootstrap.pypa.io/get-pip.py
-sudo python3 get-pip.py
-sudo rm get-pip.py
-
-echo "Step-3:"
 echo "-------- install Anaconda3----- (optional)" 
 cd /tmp
 wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 bash Anaconda3-5.2.0-Linux-x86_64.sh
 sudo rm Anaconda3-5.2.0-Linux-x86_64.sh 
+
+echo "Step-3:"
+echo "-------- install pip3---------"
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+sudo rm get-pip.py
 
 echo "Step-4:"
 echo "--------- install latest pyradiomics-------"
