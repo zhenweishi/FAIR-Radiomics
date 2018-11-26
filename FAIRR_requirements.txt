@@ -9,7 +9,6 @@ nose-parameterized>=0.5.0
 tqdm>=4.7.1
 sphinx>=1.4
 
-rdflib>=4.2.2
 scikit-image>=0.12.3
 pydicom>=1.0.2
 xnat>=0.2.2

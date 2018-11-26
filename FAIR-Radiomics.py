@@ -35,7 +35,10 @@ def dcmRtToNRRD(inputRtDir,inputImageDir,exportDir,ROIname):
         print("Error: plastimatch failed to convert RT to mask.nrrd")
     for label in os.listdir(exportDir):
         if not re.search(ROIname,label):
-            os.remove(os.path.join(exportDir,label))
+            if os.path.isfile(os.path.join(exportDir,label)):
+                os.remove(os.path.join(exportDir,label))
+            elif os.path.isdir(os.path.join(exportDir,label)):
+                shutil.rmtree(os.path.join(exportDir,label))
 def SEGJsoner(JsontemplateDir,jsonexportDir):
     # In this study, we are using one json template for all patients, which means that it is in cohort level
     shutil.copy2(os.path.join(JsontemplateDir,'metadata.json'),jsonexportDir)

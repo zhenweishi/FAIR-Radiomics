@@ -13,9 +13,11 @@ sudo rm Anaconda3-5.2.0-Linux-x86_64.sh
 
 echo "Step-3:"
 echo "-------- install pip3---------"
-wget https://bootstrap.pypa.io/get-pip.py
-sudo python3 get-pip.py
-sudo rm get-pip.py
+# wget https://bootstrap.pypa.io/get-pip.py
+# sudo python3 get-pip.py
+# sudo rm get-pip.py
+
+sudo apt install python3-pip
 
 echo "Step-4:"
 echo "--------- install latest pyradiomics-------"
@@ -28,23 +30,23 @@ sudo python3 setup.py install
 echo "Step-5:"
 echo "--------- install FAIR-Radiomics package-------"
 cd ~
-git clone https://github.com/zhenweishi/FAIR-Radiomics.git
+# git clone https://github.com/zhenweishi/FAIR-Radiomics.git
 cd ./FAIR-Radiomics
 sudo python3 -m pip install -r FAIRR_requirements.txt
 
 echo "Step-6:--------- install plastimatch package-------"
 sudo apt-get install plastimatch
 cd ~
-
+'sha1:c88f7968b921:fc07c62a2620ee839d3bec3ceb112f0043364031'
 echo "Step-7:--------- change exe files mode-------"
-# cd ~/FAIR-Radiomics/dcmqi/bin
-# sudo chmod u+x itkimage2segimage
-# sudo chmod u+x segimage2itkimage
-# sudo chmod u+x tid1500writer
-# cd ~/FAIR-Radiomics/dcm2niix
-# sudo chmod u+x dcm2niibatch
-# sudo chmod u+x dcm2niix
-# cd ~
+cd ~/FAIR-Radiomics/dcmqi/bin
+sudo chmod u+x itkimage2segimage
+sudo chmod u+x segimage2itkimage
+sudo chmod u+x tid1500writer
+cd ~/FAIR-Radiomics/dcm2niix
+sudo chmod u+x dcm2niibatch
+sudo chmod u+x dcm2niix
+cd ~
 
 # echo "Step-:--------- download data from XNAT-------"
 # cd ./FAIR-Radiomics
